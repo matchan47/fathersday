@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+body.fixed {
+  width: 100%;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 12% 0 7.8%;
+}
+
+/*==========ここからヘッダー==========*/
+
+header {
+  height: 173px;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  z-index: 20;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 50px;
+}
+
+.header_left {
+  display: inline-block;
+}
+
+.header_right {
+  padding-left: 9.004vw; /* 123px */
+}
+
+.right_list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  transform: translate(0,-50%);
+  width: 100%;
+}
+
+.right_list li a {
+  margin-right: 10.981vw; /* 150px */
+  color: #52330D;
+  transition: all 2s;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.5rem;
+}
+
+.right_list a:hover {
+  color: #B17F43;
+}
+
+.right_list li a.c-button {
+  color: #FFF;
+}
+
+.toggle_btn {
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 82.3%;
+  width: 30px;
+  height: 20px;
+  transition: all .5s;
+  cursor: pointer;
+  z-index: 40;
+}
+
+.toggle_btn span{
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 1px;
+  background-color: #52330D;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.toggle_btn span:nth-child(1) {
+  top: 0px;
+}
+.toggle_btn span:nth-child(2) {
+  top: 9.5px;
+}
+.toggle_btn span:nth-child(3) {
+  top: 19px;
+}
+.open .toggle_btn span {
+  background-color: #52330D;
+}
+.open .toggle_btn span:nth-child(1) {
+  -webkit-transform: translateY(9px) rotate(-315deg);
+  transform: translateY(9px) rotate(-315deg);
+}
+.open .toggle_btn span:nth-child(2) {
+  opacity: 0;
+}
+.open .toggle_btn span:nth-child(3) {
+  -webkit-transform: translateY(-9px) rotate(315deg);
+  transform: translateY(-9px) rotate(315deg);
+}
+
+.kv-section {
+  background-image: url("/assets/img/beautiful-tropical-beach.jpg");
+  height: 836px;
+}
+
+.campaign-section {
+  background-color: #076E95;
+  height: 1920px;
+}
+
+.benefit-section {
+  height: 1920px;
+}
+
+.product-section {
+  height: 2402px;
+}
+
+.company-section {
+  background-image: url("/assets/img/背景.jpeg");
+  height: 977px;
+}
+
+.sns-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 977px;
+  justify-content: center;
+}
+
+footer {
+  height: 572px;
+}
+
+.water_btn {
+  padding: 1rem;
+  border: 3px solid #F5A629;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-image: radial-gradient(circle at 40% 0, #F5A629 0%, #F5A629 60%, #008CFF 60%, #008CFF 100%); /* オレンジの範囲を0~70%まで、それより外は青 */
+  background-size: 100% 400%; /* 幅100%, 高さ 400% */
+  background-repeat: no-repeat; /* 背景画像を繰り返さない */
+  background-position: 50% 0%;
+  /* background-position: left 50% bottom 0%; */
+  color: #FFF;
+  font-size: 1rem;
+  transition: all 1.5s; /* 1.5秒かけて滑らかに切り替わる */
+}
+
+.water_btn:hover {
+  border: 3px solid #008CFF;
+  background-position: 50% 100%; /* radial-gradient が下に広がる（y軸に100%）*/
+  background-color: #FF7F00;
+  opacity: 1;
+}
+
+.clear {
+  clear: left;
+}
+
+
+
+/*** レスポンシブ ***/
+
+@media screen and (min-width: 768px) {
+  .toggle_btn {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  header {
+    padding: 0 25px;
+  }
+
+  .header_logo {
+    width: 84px;
+    height: 84px;
+    margin-top: 75px;
+    margin-left: 0px;
+  }
+
+  .right_list {
+    /* opacity: 0; */
+    height: 100vh;
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    /* transition: all 0.8s linear; */
+    transition: all .7s;;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    /* リストの位置を top ではなく padding-top の空白を使って調節 */
+    padding-top: 125px;
+    /* left: 50%; */
+    right: -150%;
+    width: 70%;
+    transform: translate(-50%);
+    z-index: 30;
+  }
+
+  .open .right_list {
+    right: -50%;
+  }
+
+  .right_list li {
+    margin-bottom: 50px;
+    padding-top: 5vw;
+    font-size: 2.8vw;
+  }
+
+  .right_list li:nth-last-of-type(2) {
+    margin-bottom: 84px;
+  }
+
+  .right_list a {
+    margin-right: 0;
+    color: #52330D;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: minerva-modern, sans-serif;
+  }
+
+  .right_list a:hover {
+    color: #B17F43;
+  }
+
+  .right_list a.c-button {
+    font-size: 5.867vw;
+    width: 67.467vw;
+  }
+}
