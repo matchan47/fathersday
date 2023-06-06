@@ -120,38 +120,109 @@ header {
   transform: translateY(-9px) rotate(315deg);
 }
 
-.kv-section {
+.kv_section {
   background-image: url("/assets/img/beautiful-tropical-beach.jpg");
   height: 836px;
+  position: relative;
 }
 
-.campaign-section {
+.kv_catchcopy {
+  left: 11.6%;
+  position: absolute;
+  top: 54.6%;
+}
+
+.kv_message {
+  color: white;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 2em;
+  height: 43px;
+  left: 14.6%;
+  position: absolute;
+  top: 70.3%;
+  width: 608px;
+}
+
+.campaign_section {
   background-color: #076E95;
   height: 1920px;
+  position: relative;
 }
 
-.benefit-section {
+.limited_pack {
+  left: 30%;
+  position: absolute;
+  top: 6.8%;
+}
+
+.benefit_section {
   height: 1920px;
 }
 
-.product-section {
+.product_section {
   height: 2402px;
 }
 
-.company-section {
-  background-image: url("/assets/img/背景.jpeg");
+.company_section {
+  background-image: url("/assets/img/background.jpg");
+  height: 977px;
+  position: relative;
+}
+
+.company_image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+.sns_section {
   height: 977px;
 }
 
-.sns-section {
+.instagram_area {
   display: flex;
   flex-wrap: wrap;
-  height: 977px;
+  justify-content: center;
+}
+
+.instagram_area img {
+  width: 350px;
+  height: 338px;
+}
+
+.sns_icon_area {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 footer {
   height: 572px;
+}
+
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 2s; /* 2秒かけてセクションを表示 */
+  animation-fill-mode: forwards; /* アニメーション完了後は表示されたままにする */
+  opacity: 0; /* アニメーション前に表示されているセクションを非表示にする */
+}
+@keyframes fadeUpAnime {
+
+  from {
+    opacity: 0; /* 初めはセクションを表示しない */
+    transform: translateY(100px); /* スタート地点は中心から100px下 */
+  }
+
+  to {
+    opacity: 1; /* アニメーション完了後はセクションを表示 */
+    transform: translateY(0); /* 表示箇所は中心なので、下から上に上がるアニメーションになる */
+  }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+.fadeUpTrigger{
+  opacity: 0;
 }
 
 .water_btn {
