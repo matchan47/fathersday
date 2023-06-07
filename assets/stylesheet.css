@@ -24,21 +24,21 @@ ul {
 
 .container {
   width: 100%;
-  padding: 0 12% 0 7.8%;
+  padding: 0 11.667vw;
 }
 
 /*==========ここからヘッダー==========*/
 
 header {
-  height: 173px;
+  height: 120px;
   width: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: rgba(255, 255, 255, 0.95);
   top: 0;
   z-index: 20;
   position: fixed;
   display: flex;
-  align-items: flex-end;
-  padding: 0 50px;
+  align-items: center;
 }
 
 .header_left {
@@ -149,6 +149,10 @@ header {
   position: relative;
 }
 
+.campain_section p {
+  color: #FFF;
+}
+
 .limited_pack {
   left: 30%;
   position: absolute;
@@ -184,9 +188,13 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
+  padding-top: 180px;
+  width: 100%;
 }
 
-.instagram_area img {
+.instagram_area a img {
+  margin-right: 1.875vw;
   width: 350px;
   height: 338px;
 }
@@ -195,6 +203,21 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
+  padding-bottom: 180px;
+  width: 100%;
+}
+
+.sns_icon_area a img {
+  margin-right: 3.472vw;
+}
+
+.sns_section_text {
+  font-size: 1.5rem;
+  /* padding-left: 675px;
+  padding-right: 674px; */
+  text-align: center;
+  /* width: 6.319vw; */
 }
 
 footer {
