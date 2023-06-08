@@ -149,6 +149,10 @@ header {
   position: relative;
 }
 
+.company_section_title {
+  font-size: 56px;
+}
+
 .campain_section p {
   color: #FFF;
 }
@@ -180,10 +184,6 @@ header {
   position: absolute;
 }
 
-.sns_section {
-  height: 977px;
-}
-
 .instagram_area {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +194,7 @@ header {
 }
 
 .instagram_area a img {
-  margin-right: 1.875vw;
+  margin: 0 0.938vw;
   width: 350px;
   height: 338px;
 }
@@ -209,15 +209,13 @@ header {
 }
 
 .sns_icon_area a img {
-  margin-right: 3.472vw;
+  margin: 0 1.736vw;
 }
 
 .sns_section_text {
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.5rem;
-  /* padding-left: 675px;
-  padding-right: 674px; */
   text-align: center;
-  /* width: 6.319vw; */
 }
 
 footer {
