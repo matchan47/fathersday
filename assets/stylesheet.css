@@ -30,15 +30,19 @@ ul {
 /*==========ここからヘッダー==========*/
 
 header {
-  height: 120px;
   width: 100%;
-  /* background-color: #fff; */
   background-color: rgba(255, 255, 255, 0.95);
   top: 0;
   z-index: 20;
   position: fixed;
+}
+
+.header_container {
+  width: 100%;
+  padding: 0 11.667vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header_left {
@@ -51,17 +55,17 @@ header {
 
 .right_list {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   list-style: none;
-  transform: translate(0,-50%);
   width: 100%;
 }
 
 .right_list li a {
-  margin-right: 10.981vw; /* 150px */
+  margin-right: 4.514vw;
   color: #52330D;
   transition: all 2s;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Serif JP', sans-serif;
   font-size: 1.5rem;
 }
 
