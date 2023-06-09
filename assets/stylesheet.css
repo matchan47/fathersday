@@ -233,6 +233,36 @@ header {
   margin-right: 11.8vw;
 }
 
+.limited_pack_text1 {
+  position: absolute;
+  top: 25.2%;
+  left: 4.3%;
+}
+
+.limited_pack_text2 {
+  position: absolute;
+  top: 26.8%;
+  left: 17.6%;
+}
+
+.limited_pack_text3 {
+  position: absolute;
+  top: 20.2%;
+  left: 52.4%;
+}
+
+.section2_fluits_leftup {
+  position: absolute;
+  top: 9.9%;
+  left: 4.3%;
+}
+
+.section2_fluits_rightdown {
+  position: absolute;
+  top: 59.8%;
+  left: 80.1%;
+}
+
 .benefit_section {
   height: 1920px;
   position: relative;
