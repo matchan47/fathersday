@@ -75,6 +75,7 @@ header {
 
 .right_list li a.c-button {
   color: #FFF;
+  font-size: 1.6rem;
 }
 
 .toggle_btn {
@@ -167,10 +168,69 @@ header {
   color: #FFF;
 }
 
-.limited_pack {
-  left: 30%;
+.campain_btn {
+  font-size: 2.8rem;
+  position: absolute;
+  top: 82.4%;
+  left: 28.5%;
+  width: 42.9%;
+}
+
+.campain_btn a {
+  font-size: 2.8rem;
+}
+
+.limited_pack_title {
   position: absolute;
   top: 6.8%;
+  left: 30%;
+}
+
+.limited_pack_image {
+  position: absolute;
+  top: 19.9%;
+  left: 11.7%;
+}
+
+.section1_fluits_left {
+  position: absolute;
+  top: 11.9%;
+  left: 16.5%;
+}
+
+.section1_fruits_right {
+  position: absolute;
+  top: 5.2%;
+  left: 68.8%;
+}
+
+.campaign_text {
+  position: absolute;
+  top: 19.9%;
+  left: 16.1%;
+}
+
+.campain_background {
+  position: absolute;
+  top: 19.9%;
+  left: 11.7%;
+}
+
+.campaign_product {
+  color: #FFF;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 76%;
+  left: 24.9%;
+}
+
+.campaign_product_name {
+  margin-right: 11.8vw;
 }
 
 .benefit_section {
@@ -328,7 +388,6 @@ footer {
   background-position: 50% 0%;
   /* background-position: left 50% bottom 0%; */
   color: #FFF;
-  font-size: 1rem;
   transition: all 1.5s; /* 1.5秒かけて滑らかに切り替わる */
 }
 
