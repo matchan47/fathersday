@@ -126,8 +126,14 @@ header {
 
 .kv_section {
   background-image: url("/assets/img/beautiful-tropical-beach.jpg");
-  height: 836px;
+  /* height: 836px; */
   position: relative;
+}
+
+.mv_bottle {
+  margin-top: 74px;
+  margin-left: 54.375vw;
+  object-fit: cover;
 }
 
 .kv_catchcopy {
@@ -169,6 +175,67 @@ header {
 
 .benefit_section {
   height: 1920px;
+  position: relative;
+
+}
+
+.benefit_container {
+  position: relative;
+  margin-right: 11.667vw;
+}
+
+.benefit_text1 {
+  position: absolute;
+  top: 12.2%;
+  left: 30.8%;
+}
+
+.benefit_text2 {
+  position: absolute;
+  top: 18.2%;
+  left: 45.6%;
+}
+
+.benefit_fruits {
+  position: absolute;
+  top: 10%;
+  left: 69%;
+}
+
+.voice1 {
+  position: absolute;
+  top: 24.6%;
+  left: 10%;
+}
+
+.voice2 {
+  position: absolute;
+  top: 36.7%;
+  left: 18.5%;
+}
+
+.voice3 {
+  position: absolute;
+  top: 63.4%;
+  left: 19.7%;
+}
+
+.voice4 {
+  position: absolute;
+  top: 74.2%;
+  left: 42.6%;
+}
+
+.cheers {
+  position: absolute;
+  top: 29.9%;
+  left: 32.8%;
+}
+
+.splash {
+  position: absolute;
+  top: 28.7%;
+  left: 0%;
 }
 
 .product_section {
