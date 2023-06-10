@@ -467,6 +467,74 @@ header {
 
 footer {
   height: 572px;
+  position: relative;
+}
+
+.footer_wood_grain {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  width: 55%;
+}
+
+.footer_logo {
+  position: absolute;
+  top: 37.1%;
+  left: 11.7%;
+}
+
+.footer_list {
+  position: absolute;
+  top: 34.4%;
+  left: 23.1%;
+}
+
+.footer_list li {
+  list-style: none;
+  margin-bottom: 27px;
+}
+
+.footer_list li a {
+  color: #101010;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer_btn {
+  font-size: 1.625rem;
+  position: absolute;
+  top: 60.8%;
+  left: 38.8%;
+  width: 22vw;
+}
+
+.footer_company_info {
+  position: absolute;
+  top: 52.8%;
+  left: 63.1%;
+}
+
+.copyright {
+  position: absolute;
+  top: 91.3%;
+  left: 42.4%;
+}
+
+.warning_message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.warning_icon {
+  /* padding-left: 1.597vw; */
+}
+
+.warning_text {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .fadeUp {
