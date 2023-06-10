@@ -169,15 +169,13 @@ header {
 }
 
 .campain_btn {
+  font-family: 'Noto Serif JP', sans-serif;
   font-size: 2.8rem;
   position: absolute;
   top: 82.4%;
   left: 28.5%;
   width: 42.9%;
-}
-
-.campain_btn a {
-  font-size: 2.8rem;
+  text-align: center;
 }
 
 .limited_pack_title {
@@ -501,11 +499,13 @@ footer {
 }
 
 .footer_btn {
+  font-family: 'Noto Serif JP', sans-serif;
   font-size: 1.625rem;
   position: absolute;
   top: 60.8%;
   left: 38.8%;
   width: 22vw;
+  text-align: center;
 }
 
 .footer_company_info {
@@ -566,19 +566,18 @@ footer {
   border: 3px solid #F5A629;
   border-radius: 2rem;
   cursor: pointer;
-  background-image: radial-gradient(circle at 40% 0, #F5A629 0%, #F5A629 60%, #008CFF 60%, #008CFF 100%); /* オレンジの範囲を0~70%まで、それより外は青 */
-  background-size: 100% 400%; /* 幅100%, 高さ 400% */
+  background-image: radial-gradient(circle at 50% 0, #F5A629 0%, #F5A629 50%, #008CFF 50%, #008CFF 100%); /* オレンジの範囲を0~50%まで、それより外は青 */
+  background-size: 200% 400%; /* 幅100%, 高さ 400% */
   background-repeat: no-repeat; /* 背景画像を繰り返さない */
   background-position: 50% 0%;
-  /* background-position: left 50% bottom 0%; */
   color: #FFF;
   transition: all 1.5s; /* 1.5秒かけて滑らかに切り替わる */
 }
 
 .water_btn:hover {
   border: 3px solid #008CFF;
-  background-position: 50% 100%; /* radial-gradient が下に広がる（y軸に100%）*/
-  background-color: #FF7F00;
+  background-position: 50% 150%; /* radial-gradient が下に広がる（y軸に100%）*/
+  background-color: #008CFF;
   opacity: 1;
 }
 
