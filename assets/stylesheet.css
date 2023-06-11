@@ -334,10 +334,16 @@ header {
 }
 
 .product_section {
-  height: 2402px;
   position: relative;
+  width: 100%;
 }
 
+.product_container {
+  max-width: 1104px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 180px 0;
+}
 
 .product_slogan_top {
   font-size: 3.5rem;
@@ -399,6 +405,12 @@ header {
   position: absolute;
   top: 52.3%;
   left: 22.5%;
+}
+
+.product_lager_area {
+  width: 44.3%;
+  margin-left: auto;
+  margin-top: 140px;
 }
 
 .product_lager_comment {
