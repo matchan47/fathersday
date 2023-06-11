@@ -96,7 +96,7 @@ header {
   left: 0;
   width: 30px;
   height: 1px;
-  background-color: #52330D;
+  background-color: #F5A629;
   border-radius: 4px;
   transition: all 0.5s;
 }
@@ -111,7 +111,7 @@ header {
   top: 19px;
 }
 .open .toggle_btn span {
-  background-color: #52330D;
+  background-color: #F5A629;
 }
 .open .toggle_btn span:nth-child(1) {
   -webkit-transform: translateY(9px) rotate(-315deg);
@@ -589,13 +589,13 @@ footer {
 
 /*** レスポンシブ ***/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .toggle_btn {
     display: none;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
 
   header {
     padding: 0 25px;
