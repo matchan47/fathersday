@@ -433,11 +433,34 @@ header {
   position: relative;
 }
 
-.company_image {
+.company_container {
+  max-width: 1104px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 180px 0;
+}
+
+.company_title {
+  font-size: 3.5rem;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight: bold;
+  margin-bottom: 49px;
+}
+
+.company_comment {
+  font-size: 2rem;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.company_image_area {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hibiscus {
+  object-fit: contain;
 }
 
 .instagram_area {
