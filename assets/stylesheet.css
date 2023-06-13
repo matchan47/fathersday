@@ -254,34 +254,29 @@ header {
   position: relative;
 }
 
-.limited_pack_text1 {
-  position: absolute;
-  top: 25.2%;
-  left: 4.3%;
+.limited_middle_section_second {
+  background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-position:  left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
 }
 
-.limited_pack_text2 {
-  position: absolute;
-  top: 26.8%;
-  left: 17.6%;
+.limited_pack_image_second {
+  position: static;
+  margin-top: -12%;
+  margin-left: 14.7%;
+  padding-top: 4.5%;
 }
 
-.limited_pack_text3 {
-  position: absolute;
-  top: 20.2%;
-  left: 52.4%;
+.section2_fruits_leftup {
+  position: static;
+  margin-top: -10%;
+  margin-left: -8%;
 }
 
-.section2_fluits_leftup {
-  position: absolute;
-  top: 9.9%;
-  left: 4.3%;
-}
-
-.section2_fluits_rightdown {
-  position: absolute;
-  top: 59.8%;
-  left: 80.1%;
+.section2_fruits_rightdown {
+  position: relative;
+  margin-top: -20%;
+  margin-left: 90%;
 }
 
 #benefit_section {
