@@ -164,7 +164,7 @@ header {
   font-size: 2rem;
 }
 
-#campaign_section {
+#campaign_section_first {
   background-color: #076E95;
   position: relative;
 }
@@ -247,6 +247,11 @@ header {
 
 .campaign_product_halfdozen {
   margin-right: 11.5%;
+}
+
+#campaign_section_second {
+  background-color: #076E95;
+  position: relative;
 }
 
 .limited_pack_text1 {
