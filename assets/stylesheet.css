@@ -80,7 +80,7 @@ header {
   color: #B17F43;
 }
 
-.right_list li a.c-button {
+.right_list li a.water_btn {
   color: #FFF;
   font-size: 1.6rem;
 }
@@ -132,7 +132,7 @@ header {
   transform: translateY(-9px) rotate(315deg);
 }
 
-.kv_section {
+#kv_section {
   background-image: url("./img/beautiful-tropical-beach.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@ header {
   font-size: 2rem;
 }
 
-.campaign_section {
+#campaign_section {
   background-color: #076E95;
   height: 1920px;
   position: relative;
@@ -271,7 +271,7 @@ header {
   left: 80.1%;
 }
 
-.benefit_section {
+#benefit_section {
   height: 1920px;
   position: relative;
 
@@ -336,7 +336,7 @@ header {
   left: 0%;
 }
 
-.product_section {
+#product_section {
   position: relative;
   width: 100%;
 }
@@ -430,7 +430,7 @@ header {
   margin-top: -38%;
 }
 
-.company_section {
+#company_section {
   background-image: url("/assets/img/background.jpg");
   position: relative;
 }
