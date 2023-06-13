@@ -594,17 +594,18 @@ footer {
 
 .fadeUp {
   animation-name: fadeUpAnime;
-  animation-duration: 4s; /* 2秒かけてセクションを表示 */
+  animation-duration: 2s; /* 2秒かけてセクションを表示 */
   animation-fill-mode: forwards; /* アニメーション完了後は表示されたままにする */
   opacity: 0; /* アニメーション前に表示されているセクションを非表示にする */
 }
 @keyframes fadeUpAnime {
 
-  0% {
+  from {
     opacity: 0; /* 初めはセクションを表示しない */
-    transform: translateY(100px); /* スタート地点は中心から100px下 */
+    transform: translateY(500px); /* スタート地点は中心から500px下 */
   }
 
+  to {
     opacity: 1; /* アニメーション完了後はセクションを表示 */
     transform: translateY(0); /* 表示箇所は中心なので、下から上に上がるアニメーションになる */
   }
