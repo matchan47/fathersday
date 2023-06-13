@@ -133,32 +133,35 @@ header {
 }
 
 .kv_section {
-  background-image: url("/assets/img/beautiful-tropical-beach.jpg");
-  /* height: 836px; */
+  background-image: url("./img/beautiful-tropical-beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
-.mv_bottle {
-  margin-top: 74px;
-  margin-left: 54.375vw;
-  object-fit: cover;
+.kv_container {
+  max-width: 1104px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 120px 0 24px 0;
 }
 
-.kv_slogan {
-  left: 11.6%;
-  position: absolute;
-  top: 54.6%;
+.kv_text_wrap {
+  margin: 40.3% 0 24.4% 0;
+}
+
+.mv_bottle {
+  margin-top: -70%;
+  margin-left: 50%;
+  margin-bottom: 10%;
+  object-fit: cover;
 }
 
 .kv_message {
   color: white;
   font-family: 'Noto Serif JP', sans-serif;
-  font-size: 2em;
-  height: 43px;
-  left: 14.6%;
-  position: absolute;
-  top: 70.3%;
-  width: 608px;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .campaign_section {
