@@ -497,27 +497,63 @@ header {
 }
 
 footer {
-  height: 572px;
   position: relative;
+  width: 100%;
 }
 
-.footer_wood_grain {
-  position: absolute;
-  top: 18%;
-  left: 0%;
-  width: 55%;
+.footer_container {
+  max-width: 1104px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 22px;
+}
+
+.warning_message_wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+.warning_icon {
+  margin-right: 1.6%;
+}
+
+.warning_text {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer_middle_section {
+  background-image: url("./img/background.jpg");
+  background-position: left;
+  background-size: contain;
+  margin-left: -40%;
+  width: 100%;
+  height: 100%;
+}
+
+.footer_middle_contents {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40%;
+  width: 100%;
+  height: 100%;
 }
 
 .footer_logo {
-  position: absolute;
-  top: 37.1%;
-  left: 11.7%;
+  position: static;
+  margin-right: 2.8%;
 }
 
 .footer_list {
-  position: absolute;
-  top: 34.4%;
-  left: 23.1%;
+  position: static;
+  margin-right: 12.6%
 }
 
 .footer_list li {
@@ -534,40 +570,25 @@ footer {
 .footer_btn {
   font-family: 'Noto Serif JP', sans-serif;
   font-size: 1.625rem;
-  position: absolute;
-  top: 60.8%;
-  left: 38.8%;
+  position: static;
   width: 22vw;
   text-align: center;
+  margin: 30% 3% 0 0;
 }
 
 .footer_company_info {
-  position: absolute;
-  top: 52.8%;
-  left: 63.1%;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 1.5rem;
+  position: static;
+  margin: 30% 0 0 0;
 }
 
 .copyright {
-  position: absolute;
-  top: 91.3%;
-  left: 42.4%;
-}
-
-.warning_message {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-}
-
-.warning_icon {
-  /* padding-left: 1.597vw; */
-}
-
-.warning_text {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 1.25rem;
+  position: static;
+  text-align: center;
+  margin-top: 10.1%;
 }
 
 .fadeUp {
