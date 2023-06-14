@@ -160,6 +160,7 @@ header {
 
 .kv_text_wrap {
   margin: 40.3% 0 24.4% 0;
+  height: 100%;
 }
 
 .mv_bottle {
@@ -169,11 +170,22 @@ header {
   object-fit: cover;
 }
 
+.sp_mv_bottle {
+  display: none;
+}
+
+.kv_slogan {
+  margin-bottom: 1rem;
+}
+
 .kv_message {
   color: white;
   font-family: 'Noto Serif JP', sans-serif;
   font-weight: bold;
   font-size: 2rem;
+  margin-left: 3.9%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #campaign_section_first {
@@ -216,11 +228,13 @@ header {
 }
 
 .limited_middle_section {
-  background-image: url("./img/background.jpg");
+  background-image: url("./img/campaign_text.svg"), url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: left 6.8% top 0%, center;
+  background-size: 50%, cover;
 }
 
 .limited_pack_image {
-  margin-top: -12%;
   margin-left: 14.7%;
   position: static;
 }
@@ -237,11 +251,6 @@ header {
   position: static;
 }
 
-.campaign_text {
-  margin-left: 6.8%;
-  position: static;
-}
-
 .campaign_product_wrap {
   color: #FFF;
   font-family: 'Noto Serif JP', sans-serif;
@@ -251,7 +260,13 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   position: static;
+  margin-top: 77px;
   margin-bottom: 75px;
+}
+
+.campaign_product_wrap p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .campaign_product_name {
@@ -270,7 +285,7 @@ header {
 .limited_middle_section_second {
   background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position:  left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
+  background-position: left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
 }
 
 .limited_pack_image_second {
@@ -661,6 +676,15 @@ footer {
   .toggle_btn {
     display: none;
   }
+
+  .sp_section1_fluits_left {
+    display: none;
+  }
+
+  .sp_section1_fruits_right {
+    display: none;
+  }
+
 }
 
 @media all and (max-width: 480px) {
@@ -669,10 +693,13 @@ footer {
     padding: 0 25px;
   }
 
+  .header_container {
+    max-width: 400px;
+  }
+
   .header_logo {
     width: 84px;
     height: 84px;
-    margin-top: 75px;
     margin-left: 0px;
   }
 
@@ -727,5 +754,147 @@ footer {
   .right_list a.c-button {
     font-size: 5.867vw;
     width: 67.467vw;
+  }
+
+  #kv_section {
+    background-position: 20% center;
+  }
+
+  .kv_container {
+    max-width: 400px;
+  }
+
+  .kv_text_wrap {
+    margin-top: 8.7% 0 0 0;
+  }
+
+  .kv_slogan {
+    width: 94%;
+    height: 62px;
+    margin-left: 6%;
+    margin-bottom: 9px;
+  }
+
+  .kv_message {
+    font-size: 1.2rem;
+    margin-left: -5%;
+  }
+
+  .mv_bottle {
+    display: none;
+  }
+
+  .sp_mv_bottle {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .campaign_container {
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .section1_fluits_left {
+    display: none;
+  }
+
+  .section1_fruits_right {
+    display: none;
+  }
+
+  .sp_section1_fluits_left {
+    margin-top: -10%;
+    margin-left: 6.8%;
+  }
+
+  .sp_section1_fruits_right {
+    margin-top: -30%;
+    margin-left: 70%;
+  }
+
+  .sp_section1_fluits_left img {
+    width: 76px;
+    height: 73px;
+  }
+
+  .sp_section1_fruits_right img {
+    width: 122px;
+    height: 115px;
+  }
+
+  .campaign_product_wrap {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 41px;
+  }
+
+  .campaign_product_halfdozen {
+    margin-right: 0;
+  }
+
+  .campaign_btn {
+    font-size: 2rem;
+  }
+
+  .limited_pack_title img {
+    width: 224px;
+    height: 64px;
+  }
+
+  .limited_pack_image img {
+    width: 378px;
+    height: 343px;
+  }
+
+  .limited_pack_image_second {
+    display: none;
+  }
+
+  .benefit_title {
+    width: 316px;
+    height: 118px;
+  }
+
+  .cheers {
+    display: none;
+  }
+
+  .voice2 {
+    display: none;
+  }
+
+  .voice3 {
+    display: none;
+  }
+
+  .voice4 {
+    display: none;
+  }
+
+  .section2_fruits_rightdown {
+    display: none;
+  }
+
+  .product_container {
+    max-width: 400px;
+  }
+
+  .product_slogan_middle img {
+    width: 298px;
+    height: 49px;
+  }
+
+  .product_beer {
+    display: none;
+  }
+
+  .about_company {
+    display: none;
+  }
+
+  .container {
+    display: none;
   }
 }
