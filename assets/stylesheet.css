@@ -239,7 +239,7 @@ header {
   position: static;
 }
 
-.section1_fluits_left {
+.section1_fruits_left {
   margin-top: -10%;
   margin-left: 6.8%;
   position: static;
@@ -677,7 +677,7 @@ footer {
     display: none;
   }
 
-  .sp_section1_fluits_left {
+  .sp_section1_fruits_left {
     display: none;
   }
 
@@ -796,7 +796,7 @@ footer {
     padding: 100px 0;
   }
 
-  .section1_fluits_left {
+  .section1_fruits_left {
     display: none;
   }
 
@@ -804,7 +804,7 @@ footer {
     display: none;
   }
 
-  .sp_section1_fluits_left {
+  .sp_section1_fruits_left {
     margin-top: -10%;
     margin-left: 6.8%;
   }
@@ -814,7 +814,7 @@ footer {
     margin-left: 70%;
   }
 
-  .sp_section1_fluits_left img {
+  .sp_section1_fruits_left img {
     width: 76px;
     height: 73px;
   }
