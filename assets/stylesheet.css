@@ -630,7 +630,7 @@ footer {
 
   from {
     opacity: 0; /* 初めはセクションを表示しない */
-    transform: translateY(500px); /* スタート地点は中心から500px下 */
+    transform: translateY(150px); /* スタート地点は中心から150px下 */
   }
 
   to {
