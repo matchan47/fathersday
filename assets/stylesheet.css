@@ -160,18 +160,18 @@ header {
   max-width: 1104px;
   height: 100%;
   margin: 0 auto;
-  padding: 120px 0 24px 0;
+  padding: 120px 0 0 0;
 }
 
 .kv_text_wrap {
-  margin: 40.3% 0 24.4% 0;
+  margin: 28% 0 18% 0;
   height: 100%;
 }
 
 .mv_bottle {
   margin-top: -70%;
   margin-left: 50%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   object-fit: cover;
 }
 
