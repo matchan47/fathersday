@@ -447,6 +447,7 @@ header {
   width: 44.3%;
   margin-left: auto;
   margin-top: 140px;
+  margin-right: 10%;
 }
 
 .product_lager_comment {
@@ -488,6 +489,7 @@ header {
 .company_comment {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
+  margin-right: 39.4%;
 }
 
 .company_image_area {
