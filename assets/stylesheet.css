@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: solid 1px black;
 }
 
 html {
@@ -161,6 +160,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  height: 100vh;
 }
 
 .kv_container {
@@ -171,16 +171,16 @@ header {
 }
 
 .kv_text_wrap {
-  margin: 28% 0 18% 0;
+  margin-top: -30%;
   height: 100%;
 }
 
 .mv_bottle {
-  display: none;
-  margin-top: -70%;
-  margin-left: 50%;
-  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-left: 57%;
   object-fit: cover;
+  width: 45%;
+  height: 80%;
 }
 
 .sp_mv_bottle {
