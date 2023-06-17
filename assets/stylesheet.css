@@ -595,7 +595,6 @@ footer {
 .footer_middle_contents {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
   margin-left: 40%;
   width: 100%;
