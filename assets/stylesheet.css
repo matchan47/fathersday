@@ -64,7 +64,7 @@ header {
 }
 
 .header_right {
-  padding-left: 9.004vw; /* 123px */
+  width: 100%;
 }
 
 .water_btn.header_btn {
@@ -79,17 +79,17 @@ header {
 .right_list {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: right;
   list-style: none;
   width: 100%;
 }
 
 .right_list li:not(:last-child) {
-  margin-right: 4.514vw;
+  margin-right: 5%;
 }
 
 .right_list li:last-child {
-  width: 317px;
+  width: 35%;
 }
 
 .right_list li a {
