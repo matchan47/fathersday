@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: solid 1px black;
 }
 
 html {
@@ -38,6 +39,11 @@ h2 {
 .container {
   width: 100%;
   padding: 0 11.667vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*==========ここからヘッダー==========*/
@@ -171,20 +177,16 @@ header {
 }
 
 .kv_text_wrap {
-  margin-top: -30%;
-  height: 100%;
+  margin: 28% 0 0 0;
 }
 
 .mv_bottle {
-  margin-top: 8%;
-  margin-left: 57%;
+  margin-top: -40%;
+  margin-left: 55%;
+  margin-bottom: 5%;
   object-fit: cover;
   width: 45%;
   height: 80%;
-}
-
-.sp_mv_bottle {
-  display: none;
 }
 
 .kv_slogan {
@@ -198,7 +200,6 @@ header {
   font-size: 2rem;
   margin-left: 3.9%;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 #campaign_section_first {
@@ -799,33 +800,33 @@ footer {
   }
 
   .kv_container {
-    max-width: 400px;
+    padding: 88px 0 0 0;
+    max-width: 440px;
   }
 
   .kv_text_wrap {
-    margin-top: 8.7% 0 0 0;
+    margin: 106px 0 0 0;
   }
 
   .kv_slogan {
     width: 94%;
     height: 62px;
-    margin-left: 6%;
-    margin-bottom: 9px;
+    margin: 0 3% 9px 3%;
   }
 
   .kv_message {
-    font-size: 1.2rem;
-    margin-left: -5%;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .mv_bottle {
-    display: none;
-  }
-
-  .sp_mv_bottle {
-    /* display: inline-block;
-    text-align: center; */
-    display: none;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-bottom: 3.5vh;
+    width: 100%;
+    height: 60%;
   }
 
   .campaign_container {
