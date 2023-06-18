@@ -325,6 +325,10 @@ header {
   margin-left: 90%;
 }
 
+.sp_section2_fruits_rightdown {
+  display: none;
+}
+
 #benefit_section {
   position: relative;
   padding-bottom: 180px;
@@ -882,8 +886,9 @@ footer {
     height: 343px;
   }
 
-  .limited_pack_image_second {
-    display: none;
+  .limited_pack_image_second img {
+    width: 378px;
+    height: 343px;
   }
 
   .benefit_title {
@@ -911,8 +916,26 @@ footer {
     display: none;
   }
 
+  .limited_middle_section_second {
+    background-size: 50% ,50%, 50%, 100%;
+  }
+
+  .limited_pack_image_second {
+    margin-top: 0px;
+  }
+
+  .section2_fruits_leftup {
+    display: none;
+  }
+
   .section2_fruits_rightdown {
     display: none;
+  }
+
+  .sp_section2_fruits_rightdown {
+    display: inline-block;
+    margin-top: -20%;
+    margin-left: 65%;
   }
 
   .product_container {
