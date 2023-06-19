@@ -36,11 +36,6 @@ h2 {
   margin-block-end: 0px;
 }
 
-.container {
-  width: 100%;
-  padding: 0 11.667vw;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -534,11 +529,19 @@ header {
   object-fit: contain;
 }
 
+.sns_container {
+  max-width: 1104px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 180px 0;
+}
+
 .instagram_area {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   width: 100%;
 }
 
@@ -553,7 +556,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  padding-bottom: 180px;
+  /* padding-bottom: 180px; */
   width: 100%;
 }
 
@@ -1022,8 +1025,8 @@ footer {
     display: none;
   }
 
-  .container {
-    display: none;
+  .sns_container {
+
   }
 
   .fix_bg {
