@@ -247,7 +247,7 @@ header {
 }
 
 .limited_middle_section {
-  background-image: url("./img/campaign_text.svg"), url("./img/background.jpg");
+  background-image: url("./img/campaign_text.png"), url("./img/background.jpg");
   background-repeat: no-repeat;
   background-position: left 6.8% top 0%, center;
   background-size: 50%, cover;
@@ -305,11 +305,11 @@ header {
   background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
   background-repeat: no-repeat;
   background-position: left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
+  margin-top: -12%;
 }
 
 .limited_pack_image_second {
   position: static;
-  margin-top: -12%;
   margin-left: 14.7%;
   padding-top: 4.5%;
 }
