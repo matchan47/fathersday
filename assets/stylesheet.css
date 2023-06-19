@@ -1025,4 +1025,50 @@ footer {
   .container {
     display: none;
   }
+
+  .fix_bg {
+    background-size: 82.3%;
+  }
+
+  .footer_middle_contents {
+    /* flex-wrap: wrap; */
+    display: inline-block;
+  }
+
+  .water_btn.footer_btn {
+    /* margin-left: 30%; */
+    margin: 0 0 0 auto;
+  }
+
+  .footer_logo {
+    float: left;
+    width: 64px;
+    height: 200px;
+    padding: 10% 0 0 0;
+  }
+
+  .footer_list {
+    float: none;
+  }
+
+  .footer_company_info {
+    margin-top: 10%;
+  }
+
+  .footer_company_info p {
+    text-align: center;
+  }
+
+  .warning_message_wrap {
+    flex-direction: column;
+    margin-top: 29px;
+  }
+
+  .warning_text {
+    margin: 0 8.3%;
+  }
+
+  .footer_container {
+    max-width: 440px;
+  }
 }
