@@ -225,6 +225,7 @@ header {
 .campaign_btn {
   font-family: 'Noto Serif JP', sans-serif;
   font-size: 2.8rem;
+  font-weight: bold;
   position: static;
   text-align: center;
   width: 42.9%;
@@ -236,7 +237,7 @@ header {
 }
 
 .water_btn.campaign_btn {
-  padding: 3% 11.4%;
+  padding: 3.5% 10%;
   border-radius: 4rem;
 }
 
@@ -251,6 +252,7 @@ header {
   background-repeat: no-repeat;
   background-position: left 6.8% top 0%, center;
   background-size: 50%, cover;
+  margin-top: -2%;
 }
 
 .limited_pack_image {
@@ -268,6 +270,11 @@ header {
   margin-top: -30%;
   margin-left: 70%;
   position: static;
+}
+
+.section1_fruits_right img {
+  /* margin: 0 0 0 auto; */
+  margin-left: 10%;
 }
 
 .campaign_product_wrap {
@@ -305,13 +312,13 @@ header {
   background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
   background-repeat: no-repeat;
   background-position: left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
-  margin-top: -12%;
+  margin-top: -19%;
 }
 
 .limited_pack_image_second {
   position: static;
   margin-left: 14.7%;
-  padding-top: 4.5%;
+  /* padding-top: 4.5%; */
 }
 
 .section2_fruits_leftup {
@@ -324,6 +331,7 @@ header {
   position: relative;
   margin-top: -20%;
   margin-left: 90%;
+  margin-bottom: -5%;
 }
 
 .sp_section2_fruits_rightdown {
@@ -640,6 +648,10 @@ footer {
   width: 100%;
   text-align: center;
   margin: 20% 3% 0 0;
+}
+
+.water_btn.footer_btn {
+  border-radius: 3rem;
 }
 
 .footer_company_info {
