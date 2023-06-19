@@ -1043,6 +1043,10 @@ footer {
     flex-wrap: wrap;
   }
 
+  .instagram_area a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
   .sns_section_text {
     margin-top: 100px;
     margin-bottom: 19px;
