@@ -117,11 +117,8 @@ header {
 
 .toggle_btn {
   display: block;
-  position: absolute;
-  top: 120px;
-  left: 82.3%;
+  position: static;
   width: 30px;
-  height: 20px;
   transition: all .5s;
   cursor: pointer;
   z-index: 40;
@@ -129,8 +126,7 @@ header {
 
 .toggle_btn span{
   display: block;
-  position: absolute;
-  left: 0;
+  position: static;
   width: 30px;
   height: 1px;
   background-color: #F5A629;
@@ -139,13 +135,13 @@ header {
 }
 
 .toggle_btn span:nth-child(1) {
-  top: 0px;
+  margin-top: 0px;
 }
 .toggle_btn span:nth-child(2) {
-  top: 9.5px;
+  margin-top: 12.5px;
 }
 .toggle_btn span:nth-child(3) {
-  top: 19px;
+  margin-top: 12.5px;
 }
 .open .toggle_btn span {
   background-color: #F5A629;
@@ -753,18 +749,19 @@ footer {
 
 @media all and (max-width: 480px) {
 
-  header {
-    padding: 0 25px;
+  .header_container {
+    max-width: 448px;
   }
 
-  .header_container {
-    max-width: 400px;
+  .header_left a {
+    display: block;
   }
 
   .header_logo {
-    width: 84px;
-    height: 84px;
+    width: 64px;
+    height: 60px;
     margin-left: 0px;
+    margin-top: 14px;
   }
 
   .right_list {
@@ -820,17 +817,21 @@ footer {
     width: 67.467vw;
   }
 
+  .toggle_btn {
+    margin-right: 24px;
+  }
+
   #kv_section {
     background-position: 20% center;
   }
 
   .kv_container {
     padding: 88px 0 0 0;
-    max-width: 440px;
+    max-width: 448px;
   }
 
   .kv_text_wrap {
-    margin: 106px 0 0 0;
+    margin: 13.8% 0 0 0;
   }
 
   .kv_slogan {
@@ -847,11 +848,11 @@ footer {
   }
 
   .mv_bottle {
-    margin-top: 10%;
-    margin-left: 0%;
+    margin-top: 5%;
+    margin-left: 10%;
     margin-bottom: 3.5vh;
-    width: 100%;
-    height: 60%;
+    width: 80%;
+    height: 65%;
   }
 
   .campaign_container {
@@ -1113,6 +1114,6 @@ footer {
   }
 
   .footer_container {
-    max-width: 440px;
+    max-width: 448px;
   }
 }
