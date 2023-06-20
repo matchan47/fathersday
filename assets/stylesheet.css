@@ -75,6 +75,8 @@ header {
 }
 
 .water_btn.header_btn {
+  color: #FFF;
+  font-size: 1.6rem;
   padding: 5% 11.4%;
 }
 
@@ -110,11 +112,6 @@ header {
   color: #B17F43;
 }
 
-.right_list li a.water_btn {
-  color: #FFF;
-  font-size: 1.6rem;
-}
-
 .toggle_btn {
   display: block;
   position: static;
@@ -147,15 +144,15 @@ header {
   background-color: #F5A629;
 }
 .open .toggle_btn span:nth-child(1) {
-  -webkit-transform: translateY(9px) rotate(-315deg);
-  transform: translateY(9px) rotate(-315deg);
+  -webkit-transform: translateY(12px) rotate(-315deg);
+  transform: translateY(12px) rotate(-315deg);
 }
 .open .toggle_btn span:nth-child(2) {
   opacity: 0;
 }
 .open .toggle_btn span:nth-child(3) {
-  -webkit-transform: translateY(-9px) rotate(315deg);
-  transform: translateY(-9px) rotate(315deg);
+  -webkit-transform: translateY(-15px) rotate(315deg);
+  transform: translateY(-15px) rotate(315deg);
 }
 
 #kv_section {
@@ -737,6 +734,10 @@ footer {
     display: none;
   }
 
+  .header_sns_icon_area {
+    display: none;
+  }
+
   .sp_section1_fruits_left {
     display: none;
   }
@@ -787,17 +788,18 @@ footer {
   }
 
   .open .right_list {
-    right: -50%;
+    right: -35%;
   }
 
-  .right_list li {
-    margin-bottom: 50px;
-    padding-top: 5vw;
-    font-size: 2.8vw;
+  .right_list li:not(:last-child) {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
   }
 
   .right_list li:nth-last-of-type(2) {
-    margin-bottom: 84px;
+    margin-bottom: 62px;
   }
 
   .right_list a {
@@ -812,9 +814,30 @@ footer {
     color: #B17F43;
   }
 
-  .right_list a.c-button {
-    font-size: 5.867vw;
-    width: 67.467vw;
+  .right_list li:last-child {
+    width: 100%;
+  }
+
+  .header_sns_icon {
+    display: inline-block;
+  }
+
+  .header_sns_icon_area:not(:last-child) {
+    margin-right: 22px;
+  }
+
+  .header_sns_icon img {
+    width: 37px;
+    height: 37px;
+  }
+
+  .water_btn.header_btn {
+    font-size: 1.3rem;
+    padding: 15px 30px;
+  }
+
+  .header_footer_btn_triangle {
+    margin-left: 3%;
   }
 
   .toggle_btn {
