@@ -746,6 +746,10 @@ footer {
     display: none;
   }
 
+  .sp_product_beer {
+    display: none;
+  }
+
 }
 
 @media all and (max-width: 480px) {
@@ -1055,6 +1059,31 @@ footer {
 
   .product_container {
     max-width: 400px;
+    padding: 100px 0;
+  }
+
+  .product_slogan_top {
+    font-size: 1.375rem;
+    margin: 0 5%;
+  }
+
+  .product_text_wrap {
+    width: 100%;
+  }
+
+  .product_pacificale_title {
+    font-size: 1.25rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .product_pacificale_title::after {
+    width: 100%;
+  }
+
+  .product_pacificale_comment {
+    font-size: 1.125rem;
+    margin: 30px 10% 74px 10%;
   }
 
   .product_slogan_middle img {
@@ -1062,12 +1091,30 @@ footer {
     height: 49px;
   }
 
+  .product_lager_area {
+    margin-top: 53px;
+    margin-right: 0%;
+  }
+
+  .product_lager_comment {
+    font-size: 1rem;
+  }
+
+  .product_tropical_comment {
+    font-size: 1rem;
+  }
+
   .product_beer {
     display: none;
   }
 
   .fruits_beer {
-    display: none;
+    margin-left: -5%;
+    margin-top: -75%;
+  }
+
+  .sp_product_beer {
+    display: inline-block;
   }
 
   .about_company {
