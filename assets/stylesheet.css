@@ -885,6 +885,10 @@ footer {
     padding: 100px 0;
   }
 
+  .limited_pack_title {
+    margin-bottom: 42px;
+  }
+
   .section1_fruits_left {
     display: none;
   }
@@ -923,6 +927,10 @@ footer {
     margin-right: 0;
   }
 
+  .campaign_product_price {
+    padding-top: 15px;
+  }
+
   .campaign_btn {
     font-size: 2rem;
   }
@@ -935,8 +943,12 @@ footer {
   }
 
   .limited_pack_title img {
-    width: 224px;
-    height: 64px;
+    width: 384px;
+    height: 96px;
+  }
+
+  .limited_middle_section {
+    background-size: 70%, 100% 100%;
   }
 
   .limited_pack_image img {
@@ -1017,7 +1029,10 @@ footer {
   }
 
   .limited_middle_section_second {
-    background-size: 50% ,50%, 50%, 100%;
+    background-image: url("./img/sp_limited_pack_text1.svg"), url("./img/sp_limited_pack_text2.svg"), url("./img/background.jpg");
+    background-size: 40% ,30%, 100% 100%;
+    background-position: left 1% top 5%, left 95% top 5%, center;
+    margin-top: 0%;
   }
 
   .limited_pack_image_second {
