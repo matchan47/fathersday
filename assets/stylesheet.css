@@ -509,12 +509,14 @@ header {
   font-family: 'Noto Serif JP', sans-serif;
   font-weight: bold;
   margin-bottom: 49px;
+  margin-left: 6.8%;
 }
 
 .company_comment {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
-  margin-right: 39.4%;
+  margin-right: 12%;
+  margin-left: 6.8%;
 }
 
 .company_image_area {
@@ -522,10 +524,12 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 74px;
 }
 
 .hibiscus {
   object-fit: contain;
+  margin-top: -5%;
 }
 
 .sns_container {
@@ -747,6 +751,10 @@ footer {
   }
 
   .sp_product_beer {
+    display: none;
+  }
+
+  .sp_hibiscus {
     display: none;
   }
 
@@ -1117,8 +1125,37 @@ footer {
     display: inline-block;
   }
 
-  .about_company {
+  .company_container {
+    max-width: 400px;
+    padding: 100px 0 0 0;
+  }
+
+  .company_title {
+    font-size: 1.5rem;
+  }
+
+  .company_comment {
+    font-size: 1.125rem;
+  }
+
+  .company_image_area {
+    display: block;
+  }
+
+  .hibiscus {
     display: none;
+  }
+
+  .sp_hibiscus {
+    width: 50%;
+    height: 186px;
+    margin-top: -20%;
+    margin-left: -5%;
+  }
+
+  .about_company {
+    width: 69%;
+    margin: 0 0 0 auto;
   }
 
   .sns_container {
