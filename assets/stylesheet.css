@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 html {
@@ -81,7 +81,7 @@ header {
 }
 
 .header_footer_btn_triangle {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: -3%;
 }
 
@@ -650,7 +650,7 @@ footer {
 
 .footer_logo {
   position: static;
-  margin-right: 2.8%;
+  margin-right: 86px;
 }
 
 .footer_list {
@@ -669,17 +669,21 @@ footer {
   font-size: 1.5rem;
 }
 
+.footer_btn_wrap {
+  text-align: center;
+  margin: 20% 3% 0 0;
+  width: 100%;
+}
+
 .footer_btn {
   font-family: 'Noto Serif JP', sans-serif;
   font-size: 1.625rem;
   position: static;
-  width: 100%;
-  text-align: center;
-  margin: 20% 3% 0 0;
 }
 
 .water_btn.footer_btn {
   border-radius: 3rem;
+  padding: 5% 8%;
 }
 
 .footer_company_info {
@@ -803,7 +807,7 @@ footer {
 
   .right_list {
     /* opacity: 0; */
-    height: 100vh;
+    height: 66vh;
     display: block;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.95);
@@ -1238,17 +1242,16 @@ footer {
     height: 12.5%;
   }
 
-   .fix_bg {
+  .fix_bg {
+    background-position: left top;
     background-size: 82.3%;
   }
 
   .footer_middle_contents {
-    /* flex-wrap: wrap; */
     display: inline-block;
   }
 
   .water_btn.footer_btn {
-    /* margin-left: 30%; */
     margin: 0 0 0 auto;
   }
 
@@ -1259,8 +1262,14 @@ footer {
     padding: 10% 0 0 0;
   }
 
+  .footer_btn_wrap {
+    margin: 0 0 0 auto;
+    width: 63.2%;
+  }
+
   .footer_list {
     float: none;
+    padding-top: 44px;
   }
 
   .footer_company_info {
@@ -1277,7 +1286,8 @@ footer {
   }
 
   .warning_text {
-    margin: 0 8.3%;
+    font-size: 1rem;
+    margin: 0 10.3%;
   }
 
   .footer_container {
