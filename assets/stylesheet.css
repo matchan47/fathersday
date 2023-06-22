@@ -78,6 +78,7 @@ header {
   color: #FFF;
   font-size: 1.6rem;
   padding: 5% 11.4%;
+  border-radius: 3rem;
 }
 
 .header_footer_btn_triangle {
@@ -91,6 +92,7 @@ header {
   justify-content: right;
   list-style: none;
   width: 100%;
+  margin-left: 5%;
 }
 
 .right_list li:not(:last-child) {
@@ -115,17 +117,18 @@ header {
 .toggle_btn {
   display: block;
   position: static;
-  width: 30px;
+  width: 40px;
   transition: all .5s;
   cursor: pointer;
   z-index: 40;
+  margin-right: 5%;
 }
 
 .toggle_btn span{
   display: block;
   position: static;
-  width: 30px;
-  height: 1px;
+  width: 40px;
+  height: 3px;
   background-color: #F5A629;
   border-radius: 4px;
   transition: all 0.5s;
@@ -135,10 +138,10 @@ header {
   margin-top: 0px;
 }
 .toggle_btn span:nth-child(2) {
-  margin-top: 12.5px;
+  margin-top: 10px;
 }
 .toggle_btn span:nth-child(3) {
-  margin-top: 12.5px;
+  margin-top: 10px;
 }
 .open .toggle_btn span {
   background-color: #F5A629;
@@ -171,16 +174,16 @@ header {
 }
 
 .kv_text_wrap {
-  margin: 28% 0 0 0;
+  margin: 30% 0 0 0;
 }
 
 .mv_bottle {
-  margin-top: -40%;
-  margin-left: 55%;
+  margin-top: -48%;
+  margin-left: 53%;
   margin-bottom: 5%;
   object-fit: cover;
-  width: 45%;
-  height: 80%;
+  width: 55%;
+  height: 100%;
 }
 
 .kv_slogan {
@@ -880,10 +883,6 @@ footer {
     margin-left: 3%;
   }
 
-  .toggle_btn {
-    margin-right: 24px;
-  }
-
   #kv_section {
     background-position: 20% center;
   }
@@ -894,13 +893,13 @@ footer {
   }
 
   .kv_text_wrap {
-    margin: 13.8% 0 0 0;
+    margin: 25% 0 0 5%;
   }
 
   .kv_slogan {
     width: 94%;
     height: 62px;
-    margin: 0 3% 9px 3%;
+    margin: 0 3%;
   }
 
   .kv_message {
@@ -911,11 +910,11 @@ footer {
   }
 
   .mv_bottle {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-bottom: 3.5vh;
     width: 80%;
-    height: 65%;
+    height: 60%;
   }
 
   .campaign_container {
