@@ -1,6 +1,6 @@
 // ----- ハンバーガーメニュー -----
+var pos;
 $(".toggle_btn").on("click",function() {
-    var pos;
     if ($("header").hasClass("open")) {  // トグルボタンを押下した時、
         $("header").removeClass("open"); // × の時は、open クラス削除
         $('body').removeClass('fixed').css({'top': 0});
