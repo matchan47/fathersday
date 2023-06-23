@@ -121,7 +121,7 @@ header {
   transition: all .5s;
   cursor: pointer;
   z-index: 40;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .toggle_btn span{
@@ -831,10 +831,9 @@ footer {
   }
 
   .header_logo {
-    width: 64px;
-    height: 60px;
-    margin-left: 0px;
-    margin-top: 14px;
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 10%;
   }
 
   .right_list {
@@ -851,7 +850,7 @@ footer {
     text-align: center;
     top: 0;
     /* リストの位置を top ではなく padding-top の空白を使って調節 */
-    padding-top: 125px;
+    padding-top: 23%;
     /* left: 50%; */
     right: -150%;
     width: 70%;
@@ -870,16 +869,21 @@ footer {
     font-size: 1.5rem;
   }
 
-  .right_list li:nth-last-of-type(2) {
-    margin-bottom: 62px;
-  }
-
   .right_list a {
-    margin-right: 0;
     color: #52330D;
     font-size: 1.5rem;
     text-decoration: none;
-    font-family: minerva-modern, sans-serif;
+    font-family: 'Noto Serif JP', sans-serif;
+  }
+
+  .right_list li:nth-last-of-type(2) {
+    margin-left: 17%;
+    margin-bottom: 20%;
+  }
+
+  .right_list li:nth-last-of-type(3) {
+    font-size: 1.25rem;
+    margin-bottom: 0px;
   }
 
   .right_list a:hover {
@@ -894,8 +898,8 @@ footer {
     display: inline-block;
   }
 
-  .header_sns_icon_area:not(:last-child) {
-    margin-right: 22px;
+  .header_sns_icon {
+    margin-right: 5%;
   }
 
   .header_sns_icon img {
