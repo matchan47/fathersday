@@ -163,7 +163,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh;
+  height: 836px;
 }
 
 .kv_container {
@@ -208,7 +208,7 @@ header {
   max-width: 1104px;
   height: 100%;
   margin: 0 auto;
-  padding: 180px 0;
+  padding: 180px 0 220px 0;
 }
 
 .company_section_title {
@@ -247,25 +247,27 @@ header {
 .limited_middle_section {
   background-image: url("./img/campaign_text.png"), url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position: left 6.8% top 0%, center;
-  background-size: 50%, cover;
-  margin-top: -2%;
+  background-position: left 0% top -3%, center;
+  background-size: 60%, cover;
+  margin-top: 2%;
 }
 
 .limited_pack_image {
-  margin-left: 14.7%;
+  margin-left: 15%;
   position: static;
+  padding: 4% 0;
+  width: 100%;
 }
 
 .section1_fruits_left {
-  margin-top: -10%;
+  margin-top: -13%;
   margin-left: 6.8%;
   position: static;
 }
 
 .section1_fruits_right {
   margin-top: -30%;
-  margin-left: 70%;
+  margin-left: 71%;
   position: static;
 }
 
@@ -283,8 +285,8 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   position: static;
-  margin-top: 77px;
-  margin-bottom: 75px;
+  margin-top: 6%;
+  margin-bottom: 11%;
 }
 
 .campaign_product_wrap p {
@@ -297,7 +299,7 @@ header {
 }
 
 .campaign_product_halfdozen {
-  margin-right: 11.5%;
+  margin-right: 7%;
 }
 
 #campaign_section_second {
@@ -884,6 +886,7 @@ footer {
   }
 
   #kv_section {
+    height: 854px;
     background-position: 20% center;
   }
 
@@ -925,7 +928,8 @@ footer {
   }
 
   .limited_pack_title {
-    margin-bottom: 42px;
+    margin-bottom: 6.5%;
+    /* margin-bottom: 42px; */
   }
 
   .section1_fruits_left {
@@ -937,8 +941,9 @@ footer {
   }
 
   .sp_section1_fruits_left {
-    margin-top: -10%;
-    margin-left: 6.8%;
+    /* margin-top: -10%;
+    margin-left: 6.8%; */
+    margin-top: -20%;
   }
 
   .sp_section1_fruits_right {
@@ -947,19 +952,21 @@ footer {
   }
 
   .sp_section1_fruits_left img {
-    width: 76px;
-    height: 73px;
+    /* width: 76px;
+    height: 73px; */
+    width: 30%;
   }
 
   .sp_section1_fruits_right img {
-    width: 122px;
-    height: 115px;
+    /* width: 122px;
+    height: 115px; */
+    margin-top: -20%;
   }
 
   .campaign_product_wrap {
     font-size: 1.5rem;
     margin-top: 0;
-    margin-bottom: 41px;
+    margin-bottom: 15%;
   }
 
   .campaign_product_halfdozen {
@@ -982,17 +989,22 @@ footer {
   }
 
   .limited_pack_title img {
-    width: 384px;
-    height: 96px;
+    /* margin-top: 5%; */
   }
 
   .limited_middle_section {
-    background-size: 70%, 100% 100%;
+    background-size: 70%, cover;
+    background-position: left 5% top -3%;
+  }
+
+  .limited_pack_image {
+    margin-left: 10%;
+    padding: 0;
   }
 
   .limited_pack_image img {
-    width: 378px;
-    height: 343px;
+    /* width: 378px;
+    height: 343px; */
   }
 
   .limited_pack_image_second img {
