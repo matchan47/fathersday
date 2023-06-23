@@ -1233,7 +1233,16 @@ footer {
   }
 
   .instagram_area {
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: -7% auto 0 auto;
+  }
+
+  .instagram_area a img {
+    width: 100%;
+    height: 100%;
   }
 
   .instagram_area a:not(:last-child) {
@@ -1241,8 +1250,8 @@ footer {
   }
 
   .sns_section_text {
-    margin-top: 100px;
-    margin-bottom: 19px;
+    margin-top: 30%;
+    margin-bottom: 5%;
   }
 
   .sns_section_text p {
@@ -1259,8 +1268,8 @@ footer {
   }
 
   .sns_icon {
-    width: 12.5%;
-    height: 12.5%;
+    width: 10%;
+    height: 10%;
   }
 
   .fix_bg {
