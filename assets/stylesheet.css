@@ -434,7 +434,8 @@ header {
   font-size: 3.5rem;
   font-family: 'Noto Serif JP', sans-serif;
   position: static;
-  left: 10.8%;
+  margin-top: 12%;
+  margin-left: -1%;
 }
 
 .orange_text {
@@ -447,6 +448,8 @@ header {
 
 .product_text_wrap{
   width: 48.5%;
+  margin-top: 9%;
+  margin-left: 1%;
 }
 
 .product_pacificale_title {
@@ -463,7 +466,7 @@ header {
 .product_pacificale_title::after {
   content: '';
   display: block;
-  width: 27.8vw;/*線の長さ*/
+  width: 100%;/*線の長さ*/
   height: 3px;/*線の太さ*/
   /*位置調整*/
   background-color: #F5A629;/*線の色*/
@@ -475,41 +478,45 @@ header {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
   position: static;
-  top: 25.8%;
-  left: 11.3%;
+  margin-top: 12%;
+  margin-left: -3%;
 }
 
 .product_beer {
-  margin-top: -46%;
+  margin-top: -48%;
+  margin-left: 19%;
+  width: 80%;
 }
 
 .product_slogan_middle {
   text-align: center;
-  margin-bottom: 17px;
+  margin-top: 1%;
+  margin-left: -2%;
 }
 
 .product_lager_area {
-  width: 44.3%;
-  margin-left: auto;
-  margin-top: 140px;
-  margin-right: 10%;
+  margin-top: 12%;
 }
 
 .product_lager_comment {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
   position: static;
-  margin: 0 0 0 auto;
-  width: 100%;
+  width: 53%;
+  margin-left: 50%;
 }
 
 .product_tropical_comment {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
+  margin-top: 13%;
+  width: 42%;
+  margin-left: 50%;
 }
 
 .fruits_beer{
-  margin-top: -38%;
+  margin-top: -46%;
+  width: 110%;
 }
 
 .fruits_beer img {
@@ -1116,10 +1123,11 @@ footer {
 
   .product_slogan_top {
     font-size: 1.375rem;
-    margin: 0 5%;
+    margin: -3% 5% 0 5%;
   }
 
   .product_text_wrap {
+    margin-top: 0%;
     width: 100%;
   }
 
@@ -1135,12 +1143,16 @@ footer {
 
   .product_pacificale_comment {
     font-size: 1.125rem;
-    margin: 30px 10% 74px 10%;
+    margin: 6% 1% 0 1%;
+  }
+
+  .product_slogan_middle {
+    margin-top: 19%;
+    margin-left: 6%;
   }
 
   .product_slogan_middle img {
-    width: 298px;
-    height: 49px;
+    width: 80%;
   }
 
   .product_lager_area {
@@ -1150,10 +1162,16 @@ footer {
 
   .product_lager_comment {
     font-size: 1rem;
+    width: 50%;
+    margin-top: -3%;
+    margin-left: 48%;
   }
 
   .product_tropical_comment {
     font-size: 1rem;
+    width: 58%;
+    margin-top: 9%;
+    margin-left: 48%;
   }
 
   .product_beer {
@@ -1161,12 +1179,13 @@ footer {
   }
 
   .fruits_beer {
-    margin-left: -5%;
-    margin-top: -75%;
+    margin-top: -70%;
+    margin-left: -7%;
   }
 
   .sp_product_beer {
     display: inline-block;
+    margin-top: 5%;
   }
 
   .company_container {
