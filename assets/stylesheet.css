@@ -163,7 +163,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 836px;
+  height: 100vh; /* 836px */
 }
 
 .kv_container {
@@ -435,7 +435,7 @@ header {
   font-size: 3.5rem;
   font-family: 'Noto Serif JP', sans-serif;
   position: static;
-  margin-top: 12%;
+  margin-top: 0%;
   margin-left: -1%;
 }
 
@@ -918,7 +918,7 @@ footer {
   }
 
   #kv_section {
-    height: 854px;
+    height: 100vh; /* 854px */
     background-position: 20% center;
   }
 
@@ -1140,7 +1140,7 @@ footer {
 
   .product_slogan_top {
     font-size: 1.375rem;
-    margin: -3% 5% 0 5%;
+    margin: 0 5%;
   }
 
   .product_text_wrap {
