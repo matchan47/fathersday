@@ -309,25 +309,26 @@ header {
 .limited_middle_section_second {
   background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position: left 1% top 20%, left 15% top 28%, left 90% top 5%, center;
-  margin-top: -19%;
+  background-position: left 1% top 22%, left 13% top 28%, left 93% top 8%, center;
+  margin-top: -26%;
 }
 
 .limited_pack_image_second {
   position: static;
   margin-left: 14.7%;
-  /* padding-top: 4.5%; */
+  padding-top: 4.5%;
+  margin-top: 15%;
 }
 
 .section2_fruits_leftup {
   position: static;
-  margin-top: -10%;
-  margin-left: -8%;
+  margin-top: -18%;
+  margin-left: -10%;
 }
 
 .section2_fruits_rightdown {
   position: relative;
-  margin-top: -20%;
+  margin-top: -12%;
   margin-left: 90%;
   margin-bottom: -5%;
 }
@@ -959,6 +960,7 @@ footer {
   }
 
   .limited_pack_title {
+    margin-top: -1%;
     margin-bottom: 6.5%;
   }
 
@@ -989,8 +991,8 @@ footer {
 
   .campaign_product_wrap {
     font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 15%;
+    margin-top: -2%;
+    margin-bottom: 16%;
   }
 
   .campaign_product_halfdozen {
@@ -1020,11 +1022,6 @@ footer {
   .limited_pack_image {
     margin-left: 10%;
     padding: 0;
-  }
-
-  .limited_pack_image_second img {
-    width: 378px;
-    height: 343px;
   }
 
   #benefit_section {
@@ -1115,6 +1112,7 @@ footer {
     background-size: 40% ,30%, 100% 100%;
     background-position: left 1% top 5%, left 95% top 5%, center;
     margin-top: 0%;
+    padding-bottom: 5%;
   }
 
   .limited_pack_image_second {
