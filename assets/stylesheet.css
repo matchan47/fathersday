@@ -338,7 +338,7 @@ header {
 
 #benefit_section {
   position: relative;
-  padding-bottom: 180px;
+  padding-bottom: 140px;
 }
 
 .benefit_container {
@@ -365,17 +365,18 @@ header {
 .benefit_top_section {
   width: 100%;
   height: 100%;
-  margin-bottom: 136px;
+  margin-bottom: 10.5%;
 }
 
 .benefit_title {
   margin-left: 24.9%;
+  margin-bottom: 1%;
 }
 
 .benefit_middle_bg {
   background-image: url("./img/splash.png");
   background-repeat: no-repeat;
-  background-position: 5% 80%;
+  background-position: -5% 88%;
 }
 
 .benefit_middle_section {
@@ -391,22 +392,23 @@ header {
 
 .voice1 {
   position: static;
+  margin-left: -2%;
 }
 
 .voice2 {
   position: static;
-  margin-left: 9%;
+  margin-left: 7%;
 }
 
 .voice3 {
   position: static;
-  margin-top: 16%;
-  margin-left: 9%;
+  margin-top: 25%;
+  margin-left: 10%;
 }
 
 .voice4 {
   position: static;
-  margin-top: 6%;
+  margin-top: -1%;
   margin-right: -10%;
   margin-left: 36.5%;
 }
@@ -782,6 +784,10 @@ footer {
     display: none;
   }
 
+  .sp_benefit_fruits {
+    display: none;
+  }
+
   .sp_product_beer {
     display: none;
   }
@@ -996,7 +1002,7 @@ footer {
   }
 
   #benefit_section {
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
 
   .benefit_container {
@@ -1015,8 +1021,8 @@ footer {
   }
 
   .benefit_middle_bg {
-    background-position: 50% 60%;
-    background-size: 140% 60%;
+    background-position: 50% 65%;
+    background-size: 120% 60%;
   }
 
   .benefit_middle_section {
@@ -1033,22 +1039,22 @@ footer {
   }
 
   .benefit_title {
-    margin: 0 8.3% 0 8.3%;
-    width: 316px;
-    height: 118px;
+    margin: 1% 5% 0 5%;
+    width: 80%;
   }
 
   .benefit_fruits {
-    width: 148px;
-    height: 172px;
-    margin-top: -70%;
+    display: none;
+  }
+
+  .sp_benefit_fruits {
+    margin-top: -30%;
     margin-left: 70%;
-    margin-bottom: 50%;
   }
 
   .cheers {
     width: 100%;
-    margin: 10% 0 0 0;
+    margin: 40% 0 0 0;
   }
 
   .cheers img {
@@ -1060,27 +1066,22 @@ footer {
   }
 
   .voice1 {
-    width: 186px;
-    height: 86px;
+    width: 50%;
   }
 
   .voice2 {
-    width: 185px;
-    height: 86px;
-    margin-bottom: 251px;
-    margin-left: 57%;
+    width: 50%;
+    margin-bottom: 55%;
+    margin-left: 54%;
+    margin-top: -8%;
   }
 
   .voice3 {
-    width: 372px;
-    height: 86px;
-    margin: 0 auto 23px 0;
+    margin: 0 0 -3% -2%;
   }
 
   .voice4 {
-    width: 371px;
-    height: 85px;
-    margin: 0 0 0 auto;
+    margin: 0 -3% 0 0;
   }
 
   .limited_middle_section_second {
