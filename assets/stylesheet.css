@@ -272,7 +272,6 @@ header {
 }
 
 .section1_fruits_right img {
-  /* margin: 0 0 0 auto; */
   margin-left: 10%;
 }
 
@@ -929,7 +928,6 @@ footer {
 
   .limited_pack_title {
     margin-bottom: 6.5%;
-    /* margin-bottom: 42px; */
   }
 
   .section1_fruits_left {
@@ -941,8 +939,6 @@ footer {
   }
 
   .sp_section1_fruits_left {
-    /* margin-top: -10%;
-    margin-left: 6.8%; */
     margin-top: -20%;
   }
 
@@ -952,14 +948,10 @@ footer {
   }
 
   .sp_section1_fruits_left img {
-    /* width: 76px;
-    height: 73px; */
     width: 30%;
   }
 
   .sp_section1_fruits_right img {
-    /* width: 122px;
-    height: 115px; */
     margin-top: -20%;
   }
 
@@ -988,10 +980,6 @@ footer {
     margin-bottom: -2%;
   }
 
-  .limited_pack_title img {
-    /* margin-top: 5%; */
-  }
-
   .limited_middle_section {
     background-size: 70%, cover;
     background-position: left 5% top -3%;
@@ -1000,11 +988,6 @@ footer {
   .limited_pack_image {
     margin-left: 10%;
     padding: 0;
-  }
-
-  .limited_pack_image img {
-    /* width: 378px;
-    height: 343px; */
   }
 
   .limited_pack_image_second img {
