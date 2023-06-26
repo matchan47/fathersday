@@ -58,7 +58,7 @@
       </div>
     </div>
     <div id="campaign_section_first">
-      <div class="campaign_container">
+      <div class="campaign_container_first">
         <section class="campaign_main_section">
           <div class="limited_pack_title">
             <h2>
@@ -99,8 +99,8 @@
     <div id="benefit_section">
       <div class="benefit_middle_bg">
         <div class="benefit_container_top">
+          <img class="sp_benefit_fruits" src="./assets/img/sp_benefit_fruits.png" width="130" height="157" alt="オレンジとスターフルーツ">
           <div class="benefit_top_section">
-            <img class="sp_benefit_fruits" src="./assets/img/sp_benefit_fruits.png" width="130" height="157" alt="オレンジとスターフルーツ">
             <img class="benefit_title" src="./assets/img/benefit_title.svg" width="547" height="205" alt="父の日に味わう贅沢な時間">
             <img class="benefit_fruits" src="./assets/img/benefit_fruits.png" width="240" height="280" alt="オレンジとスターフルーツ">
           </div>
@@ -114,20 +114,26 @@
               <img src="./assets/img/voice1.png" width="431" height="230" alt="仕事の終わりに最高の一杯！">
             </div>
             <div class="voice2">
-              <img src="./assets/img/voice2.png" width="438" height="229" alt="また買いたいと思いました！">
+              <picture>
+                <source srcset="./assets/img/sp_voice2.png" media="(max-width: 480px)" width="408" height="225">
+                <img src="./assets/img/voice2.png" width="438" height="229" alt="また買いたいと思いました！">
+              </picture>
             </div>
             <div class="voice3">
               <img src="./assets/img/voice3.png" width="702" height="196" alt="プレゼントにもらい子供と一緒に晩酌を楽しみました！">
             </div>
             <div class="voice4">
-              <img src="./assets/img/voice4.png" width="726" height="221" alt="普段飲むビールとは違って、飲みやすく特別感がありました！">
+              <picture>
+                <source srcset="./assets/img/sp_voice4.png" media="(max-width: 480px)" width="675" height="217">
+                <img src="./assets/img/voice4.png" width="699" height="217" alt="普段飲むビールとは違って、飲みやすく特別感がありました！">
+              </picture>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div id="campaign_section_second">
-      <div class="campaign_container">
+      <div class="campaign_container_second_top">
         <section class="campaign_main_section">
           <div class="limited_pack_title">
             <h2>
@@ -142,10 +148,12 @@
             <div class="limited_pack_image_second">
               <img src="./assets/img/limited_pack.png" width="693" height="745" alt="パシフィックエールボトル６本">
             </div>
-            <img class="section2_fruits_rightdown" src="./assets/img/section2_fruits_rightdown.png" width="221" height="292" alt="オレンジとスターフルーツ">
           </div>
         </section>
         <img class="sp_section2_fruits_rightdown" src="./assets/img/sp_section2_fluits_rightdown.png" width="142" height="126" alt="バナナとグレープフルーツとスターフルーツ">
+      </div>
+      <div class="campaign_container_second_bottom">
+        <img class="section2_fruits_rightdown" src="./assets/img/section2_fruits_rightdown.png" width="221" height="292" alt="オレンジとスターフルーツ">
         <div class="campaign_product_wrap">
           <p class="campaign_product_name">パシフィックエール</p>
           <p class="campaign_product_halfdozen">ボトル6本</p>
@@ -157,7 +165,7 @@
       </div>
     </div>
     <div id="product_section">
-      <div class="product_container">
+      <div class="product_container_top">
         <div><p class="product_slogan_top"><span class="orange_text">フルーティー</span>な<span class="blue_text">波</span>とともに、最高の時間を過ごしてみませんか？</p></div>
         <img class="sp_product_beer" src="./assets/img/sp_product_beer.png" width="446" height="427" alt="STONEWOODのボトルと水しぶき">
         <div class="product_text_wrap">
@@ -173,13 +181,15 @@
             <p class="product_lager_comment">ラガーは5度前後の低温で発酵するのに対し、エールは常温〜やや高温で発酵するため、常温でも美味しく飲める！</p>
             <p class="product_tropical_comment">パッションフルーツ、柑橘系、トロピカルフルーツなど南国を感じる香り！</p>
           </div>
-          <div class="fruits_beer">
-            <picture>
-              <source srcset="./assets/img/sp_fruits_beer.png" media="(max-width: 480px)" width="416" height="359">
-              <img src="./assets/img/fruits_beer.png" width="1199" height="843" alt="STONEWOODのボトルとフルーツと水しぶき">
-            </picture>
-          </div>
         </section>
+      </div>
+      <div class="product_container_bottom">
+        <div class="fruits_beer">
+          <picture>
+            <source srcset="./assets/img/sp_fruits_beer.png" media="(max-width: 480px)" width="416" height="359">
+            <img src="./assets/img/fruits_beer.png" width="1199" height="843" alt="STONEWOODのボトルとフルーツと水しぶき">
+          </picture>
+        </div>
       </div>
     </div>
     <div id="company_section">

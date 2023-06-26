@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 html {
@@ -121,7 +121,7 @@ header {
   transition: all .5s;
   cursor: pointer;
   z-index: 40;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .toggle_btn span{
@@ -159,8 +159,9 @@ header {
 }
 
 #kv_section {
-  background-image: url("./img/beautiful-tropical-beach.jpg");
-  background-size: cover;
+  background-image: url("./img/mv_bottle.png"), url("./img/beautiful-tropical-beach.jpg");
+  background-size: auto, cover;
+  background-position: left 97% top 95%, center;
   background-repeat: no-repeat;
   position: relative;
   height: 100vh; /* 836px */
@@ -178,12 +179,7 @@ header {
 }
 
 .mv_bottle {
-  margin-top: -45%;
-  margin-left: 53%;
-  margin-bottom: 5%;
-  object-fit: cover;
-  width: 55%;
-  height: 90%;
+  display: none;
 }
 
 .kv_slogan {
@@ -204,7 +200,7 @@ header {
   position: relative;
 }
 
-.campaign_container {
+.campaign_container_first {
   max-width: 1104px;
   height: 100%;
   margin: 0 auto;
@@ -234,8 +230,8 @@ header {
 }
 
 .water_btn.campaign_btn {
-  padding: 3.5% 10%;
-  border-radius: 4rem;
+  padding: 3.5% 7%;
+  border-radius: 5rem;
 }
 
 .limited_pack_title {
@@ -247,16 +243,16 @@ header {
 .limited_middle_section {
   background-image: url("./img/campaign_text.png"), url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position: left 0% top -3%, center;
+  background-position: left -1% top -2%, center;
   background-size: 60%, cover;
   margin-top: 2%;
 }
 
 .limited_pack_image {
-  margin-left: 15%;
+  margin: 0 23% 0 auto;
   position: static;
-  padding: 4% 0;
-  width: 100%;
+  padding: 11.5% 0;
+  width: 62.8%;
 }
 
 .section1_fruits_left {
@@ -266,13 +262,13 @@ header {
 }
 
 .section1_fruits_right {
-  margin-top: -30%;
-  margin-left: 71%;
   position: static;
 }
 
 .section1_fruits_right img {
-  margin-left: 10%;
+  display: block;
+  margin-top: -30%;
+  margin-left: auto;
 }
 
 .campaign_product_wrap {
@@ -306,18 +302,32 @@ header {
   position: relative;
 }
 
+.campaign_container_second_top {
+  max-width: 1104px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 180px 0 0 0;
+}
+
+.campaign_container_second_bottom {
+  max-width: 1312px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 0 220px 0;
+}
+
 .limited_middle_section_second {
   background-image: url("./img/limited_pack_text1.svg"), url("./img/limited_pack_text2.svg"), url("./img/limited_pack_text3.svg"), url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position: left 1% top 22%, left 13% top 28%, left 93% top 8%, center;
-  margin-top: -26%;
+  background-position: left 1% top 22%, left 13% top 27%, left 93% top 6%, center;
+  margin-top: -10%;
 }
 
 .limited_pack_image_second {
   position: static;
   margin-left: 14.7%;
-  padding-top: 4.5%;
-  margin-top: 15%;
+  padding-top: 12.5%;
+  padding-bottom: 8%;
 }
 
 .section2_fruits_leftup {
@@ -327,10 +337,9 @@ header {
 }
 
 .section2_fruits_rightdown {
+  display: block;
   position: relative;
-  margin-top: -12%;
-  margin-left: 90%;
-  margin-bottom: -5%;
+  margin: -18% 0 -4% auto;
 }
 
 .sp_section2_fruits_rightdown {
@@ -364,20 +373,21 @@ header {
 }
 
 .benefit_top_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
   width: 100%;
   height: 100%;
-  margin-bottom: 10.5%;
-}
-
-.benefit_title {
-  margin-left: 24.9%;
-  margin-bottom: 1%;
+  margin-top: 2%;
+  margin-bottom: 9%;
+  padding-right: 4%;
 }
 
 .benefit_middle_bg {
   background-image: url("./img/splash.png");
   background-repeat: no-repeat;
   background-position: -5% 88%;
+  padding-bottom: 220px;
 }
 
 .benefit_middle_section {
@@ -410,8 +420,7 @@ header {
 .voice4 {
   position: static;
   margin-top: -1%;
-  margin-right: -10%;
-  margin-left: 36.5%;
+  float: right;
 }
 
 .cheers {
@@ -424,11 +433,18 @@ header {
   width: 100%;
 }
 
-.product_container {
+.product_container_top {
   max-width: 1104px;
   height: 100%;
   margin: 0 auto;
-  padding: 180px 0;
+  padding: 180px 0 0 0;
+}
+
+.product_container_bottom {
+  max-width: 1312px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 0 180px 0;
 }
 
 .product_slogan_top {
@@ -484,19 +500,21 @@ header {
 }
 
 .product_beer {
+  display: block;
   margin-top: -48%;
-  margin-left: 19%;
+  margin-left: auto;
   width: 80%;
 }
 
 .product_slogan_middle {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-left: -2%;
 }
 
 .product_lager_area {
   margin-top: 12%;
+  padding-bottom: 300px;
 }
 
 .product_lager_comment {
@@ -504,20 +522,22 @@ header {
   font-family: 'Noto Serif JP', sans-serif;
   position: static;
   width: 53%;
-  margin-left: 50%;
+  margin-left: auto;
 }
 
 .product_tropical_comment {
   font-size: 2rem;
   font-family: 'Noto Serif JP', sans-serif;
   margin-top: 13%;
+  margin-right: 11%;
+  margin-left: auto;
   width: 42%;
-  margin-left: 50%;
 }
 
 .fruits_beer{
-  margin-top: -46%;
-  width: 110%;
+  margin-top: -63%;
+  margin-left: auto;
+  width: 95%;
 }
 
 .fruits_beer img {
@@ -540,7 +560,7 @@ header {
   font-size: 3.5rem;
   font-family: 'Noto Serif JP', sans-serif;
   font-weight: bold;
-  margin-top: -2%;
+  margin-top: -3%;
   margin-left: 7%;
 }
 
@@ -576,16 +596,19 @@ header {
 
 .instagram_area {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  /* padding-top: 180px; */
   width: 100%;
 }
 
 .instagram_area a img {
-  margin: 0 0.938vw;
   width: 350px;
   height: 338px;
+}
+
+.instagram_area a:not(:last-child) {
+  margin-right: 2%;
 }
 
 .sns_icon_section {
@@ -597,8 +620,8 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  /* padding-bottom: 180px; */
   width: 100%;
+  padding-top: 1%;
 }
 
 .sns_icon_area a img {
@@ -630,7 +653,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  margin-top: 1%;
+  margin-top: 0.5%;
   width: 100%;
 }
 
@@ -728,7 +751,7 @@ footer {
   font-size: 1.25rem;
   position: static;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 5%;
   padding-bottom: 2.5%;
 }
 
@@ -917,8 +940,10 @@ footer {
   }
 
   #kv_section {
-    height: 100vh; /* 854px */
+    background-image: url("./img/beautiful-tropical-beach.jpg");
+    background-size: cover;
     background-position: 20% center;
+    height: 100vh; /* 854px */
   }
 
   .kv_container {
@@ -937,21 +962,23 @@ footer {
   }
 
   .kv_message {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: normal;
     margin: 0 auto;
     text-align: center;
   }
 
   .mv_bottle {
+    display: block;
     margin-top: 10%;
     margin-left: 10%;
     margin-bottom: 3.5vh;
+    object-fit: cover;
     width: 80%;
     height: 60%;
   }
 
-  .campaign_container {
+  .campaign_container_first {
     max-width: 400px;
     height: 100%;
     margin: 0 auto;
@@ -959,7 +986,6 @@ footer {
   }
 
   .limited_pack_title {
-    margin-top: -1%;
     margin-bottom: 6.5%;
   }
 
@@ -990,7 +1016,7 @@ footer {
 
   .campaign_product_wrap {
     font-size: 1.5rem;
-    margin-top: -2%;
+    margin-top: 0%;
     margin-bottom: 16%;
   }
 
@@ -1019,11 +1045,13 @@ footer {
   .limited_middle_section {
     background-size: 70%, cover;
     background-position: left 5% top -3%;
+    margin-top: 0%;
+    padding-bottom: 4%;
   }
 
   .limited_pack_image {
-    margin-left: 10%;
-    padding: 0;
+    padding: 8% 0 0 0;
+    width: 70%;
   }
 
   #benefit_section {
@@ -1073,8 +1101,9 @@ footer {
   }
 
   .sp_benefit_fruits {
+    display: block;
     margin-top: -30%;
-    margin-left: 70%;
+    margin-left: auto;
   }
 
   .cheers {
@@ -1096,9 +1125,7 @@ footer {
 
   .voice2 {
     width: 50%;
-    margin-bottom: 55%;
-    margin-left: 54%;
-    margin-top: -8%;
+    margin: -8% 0 55% auto;
   }
 
   .voice3 {
@@ -1106,19 +1133,35 @@ footer {
   }
 
   .voice4 {
-    margin: 0 -3% 0 0;
+    margin: 0 0 0 auto;
   }
 
   .limited_middle_section_second {
     background-image: url("./img/sp_limited_pack_text1.svg"), url("./img/sp_limited_pack_text2.svg"), url("./img/background.jpg");
     background-size: 40% ,30%, 100% 100%;
-    background-position: left 1% top 5%, left 95% top 5%, center;
-    margin-top: 0%;
-    padding-bottom: 5%;
+    background-position: left 1% top 5%, left 95% top 0%, center;
+    margin-top: 5%;
   }
 
   .limited_pack_image_second {
     margin-top: 0px;
+    padding-top: 7.5%;
+    padding-bottom: 9%;
+    width: 65%;
+  }
+
+  .campaign_container_second_top {
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+  }
+
+  .campaign_container_second_bottom {
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
   }
 
   .section2_fruits_leftup {
@@ -1130,14 +1173,19 @@ footer {
   }
 
   .sp_section2_fruits_rightdown {
-    display: inline-block;
+    display: block;
     margin-top: -20%;
-    margin-left: 65%;
+    margin-left: auto;
   }
 
-  .product_container {
+  .product_container_top {
     max-width: 400px;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
+  }
+
+  .product_container_bottom {
+    max-width: 400px;
+    padding: 0 0 100px 0;
   }
 
   .product_slogan_top {
@@ -1183,14 +1231,15 @@ footer {
     font-size: 1rem;
     width: 50%;
     margin-top: -3%;
-    margin-left: 48%;
+    margin-left: auto;
   }
 
   .product_tropical_comment {
     font-size: 1rem;
-    width: 58%;
+    width: 50%;
     margin-top: 9%;
-    margin-left: 48%;
+    margin-right: 0%;
+    margin-left: auto;
   }
 
   .product_beer {
@@ -1198,8 +1247,9 @@ footer {
   }
 
   .fruits_beer {
-    margin-top: -70%;
+    margin-top: -140%;
     margin-left: -7%;
+    width: 100%;
   }
 
   .sp_product_beer {
@@ -1214,6 +1264,7 @@ footer {
 
   .company_text_wrap {
     margin-left: -7%;
+    margin-top: 8%;
   }
 
   .company_title {
@@ -1255,7 +1306,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     width: 80%;
-    margin: -7% auto 0 auto;
+    margin: -2% auto 0 auto;
   }
 
   .instagram_area a img {
@@ -1312,7 +1363,7 @@ footer {
 
   .footer_list {
     float: none;
-    margin: 4% 0 0 34%;
+    margin: 2% 0 0 34%;
   }
 
   .footer_list li a {
@@ -1343,7 +1394,7 @@ footer {
 
   .warning_message_wrap {
     flex-direction: column;
-    margin-top: 8%;
+    margin-top: 5%;
   }
 
   .warning_icon {
