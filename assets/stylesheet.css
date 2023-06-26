@@ -621,17 +621,18 @@ header {
   justify-content: center;
   list-style: none;
   width: 100%;
-  padding-top: 1%;
+  padding-top: 4%;
 }
 
 .sns_icon_area a img {
   margin: 0 1.736vw;
 }
 
-.sns_section_text p {
+.sns_section_text h3 {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.5rem;
   text-align: center;
+  margin-top: 3%;
 }
 
 footer {
