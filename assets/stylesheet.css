@@ -398,12 +398,11 @@ header {
 }
 
 .benefit_voices {
-  margin-top: -90%;
+  margin-top: -89%;
 }
 
 .voice1 {
   position: static;
-  margin-left: -2%;
 }
 
 .voice2 {
@@ -419,7 +418,6 @@ header {
 
 .voice4 {
   position: static;
-  margin-top: -1%;
   float: right;
 }
 
@@ -705,6 +703,9 @@ footer {
 
 .footer_list li {
   list-style: none;
+}
+
+.footer_list li:not(:last-child) {
   margin-bottom: 27px;
 }
 
@@ -716,17 +717,14 @@ footer {
 
 .footer_btn_wrap {
   text-align: center;
-  margin: 15% 0 0 0;
+  margin: 17% 0 0 1%;
   width: 100%;
 }
 
-.footer_btn {
+.water_btn.footer_btn {
   font-family: 'Noto Serif JP', sans-serif;
   font-size: 1.625rem;
   position: static;
-}
-
-.water_btn.footer_btn {
   border-radius: 3rem;
   padding: 5% 10%;
 }
@@ -999,7 +997,7 @@ footer {
   }
 
   .sp_section1_fruits_left {
-    margin-top: -20%;
+    margin-top: -16%;
   }
 
   .sp_section1_fruits_right {
@@ -1018,7 +1016,11 @@ footer {
   .campaign_product_wrap {
     font-size: 1.5rem;
     margin-top: 0%;
-    margin-bottom: 16%;
+    margin-bottom: 8%;
+  }
+
+  .campaign_product_name {
+    margin-right: 7%;
   }
 
   .campaign_product_halfdozen {
@@ -1040,7 +1042,8 @@ footer {
   }
 
   .water_btn.campaign_btn {
-    padding: 3.5% 5%;
+    display: inline-block;
+    width: 100%;
   }
 
   .limited_middle_section {
@@ -1051,6 +1054,7 @@ footer {
   }
 
   .limited_pack_image {
+    margin: 0 20% 0 auto;
     padding: 8% 0 0 0;
     width: 70%;
   }
@@ -1075,8 +1079,9 @@ footer {
   }
 
   .benefit_middle_bg {
-    background-position: 50% 65%;
+    background-position: 65% 60%;
     background-size: 120% 60%;
+    padding-bottom: 120px;
   }
 
   .benefit_middle_section {
@@ -1089,11 +1094,14 @@ footer {
   }
 
   .benefit_top_section {
+    margin-top: 0%;
     margin-bottom: 0px;
+    padding-right: 0%;
+    justify-content: left;
   }
 
   .benefit_title {
-    margin: 1% 5% 0 5%;
+    margin: 3% 5% 0 5%;
     width: 80%;
   }
 
@@ -1103,13 +1111,13 @@ footer {
 
   .sp_benefit_fruits {
     display: block;
-    margin-top: -30%;
+    margin-top: -32%;
     margin-left: auto;
   }
 
   .cheers {
     width: 100%;
-    margin: 40% 0 0 0;
+    margin: 45% 0 0 0;
   }
 
   .cheers img {
@@ -1117,7 +1125,7 @@ footer {
   }
 
   .benefit_voices {
-    margin-top: -120%;
+    margin-top: -124%;
   }
 
   .voice1 {
@@ -1224,8 +1232,7 @@ footer {
   }
 
   .product_lager_area {
-    margin-top: 53px;
-    margin-right: 0%;
+    margin-right: 3%;
   }
 
   .product_lager_comment {
@@ -1248,8 +1255,8 @@ footer {
   }
 
   .fruits_beer {
-    margin-top: -140%;
-    margin-left: -7%;
+    margin-top: -143%;
+    margin-left: -6%;
     width: 100%;
   }
 
@@ -1289,7 +1296,7 @@ footer {
     width: 50%;
     height: 186px;
     margin-top: -20%;
-    margin-left: -5%;
+    margin-left: -3%;
   }
 
   .about_company {
@@ -1358,26 +1365,23 @@ footer {
   }
 
   .footer_btn_wrap {
-    margin: 0 0 0 auto;
-    width: 63.2%;
+    margin: 5% 0 0 auto;
+    width: 70%;
   }
 
   .footer_list {
     float: none;
-    margin: 2% 0 0 34%;
+    margin: 3% 0 0 34%;
   }
 
   .footer_list li a {
     font-size: 1.125rem;
   }
 
-  .footer_btn {
+  .water_btn.footer_btn {
+    padding: 4% 8%;
     font-size: 1.375rem;
     margin-top: -10%;
-  }
-
-  .water_btn.footer_btn {
-    padding: 5% 5%;
   }
 
   .footer_company_info {
@@ -1404,7 +1408,8 @@ footer {
 
   .warning_text {
     font-size: 1rem;
-    margin: 2% 10.3%;
+    margin: 2% 0;
+    width: 65%;
   }
 
   .footer_container {
