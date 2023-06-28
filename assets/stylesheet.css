@@ -159,27 +159,31 @@ header {
 }
 
 #kv_section {
-  background-image: url("./img/mv_bottle.png"), url("./img/beautiful-tropical-beach.jpg");
-  background-size: auto, cover;
-  background-position: left 97% top 95%, center;
+  background-image: url("./img/beautiful-tropical-beach.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 100vh; /* 836px */
 }
 
 .kv_container {
-  max-width: 1104px;
+  max-width: 1312px;
   height: 100%;
   margin: 0 auto;
   padding: 120px 0 0 0;
 }
 
 .kv_text_wrap {
-  margin: 30% 0 0 0;
+  margin: 26% 0 0 8%;
 }
 
 .mv_bottle {
-  display: none;
+  display: block;
+  margin-top: -40%;
+  margin-left: auto;
+  margin-bottom: 3.5vh;
+  width: 52%;
 }
 
 .kv_slogan {
@@ -543,7 +547,7 @@ header {
 }
 
 #company_section {
-  background-image: url("/assets/img/background.jpg");
+  background-image: url("./img/background.jpg");
   position: relative;
 }
 
