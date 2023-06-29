@@ -164,7 +164,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh; /* 836px */
+  height: 836px; /* 836px */
 }
 
 .kv_container {
@@ -182,7 +182,6 @@ header {
   display: block;
   margin-top: -40%;
   margin-left: auto;
-  margin-bottom: 3.5vh;
   width: 52%;
 }
 
@@ -946,7 +945,7 @@ footer {
     background-image: url("./img/beautiful-tropical-beach.jpg");
     background-size: cover;
     background-position: 20% center;
-    height: 100vh; /* 854px */
+    height: 854px; /* 854px */
   }
 
   .kv_container {
@@ -972,13 +971,8 @@ footer {
   }
 
   .mv_bottle {
-    display: block;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 3.5vh;
-    object-fit: cover;
-    width: 80%;
-    height: 60%;
+    margin-top: 12%;
+    width: 100%;
   }
 
   .campaign_container_first {
