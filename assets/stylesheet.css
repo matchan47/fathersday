@@ -164,7 +164,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 836px; /* 836px */
+  height: 100vh; /* 836px */
 }
 
 .kv_container {
@@ -945,7 +945,7 @@ footer {
     background-image: url("./img/beautiful-tropical-beach.jpg");
     background-size: cover;
     background-position: 20% center;
-    height: 854px; /* 854px */
+    height: 100vh; /* 854px */
   }
 
   .kv_container {
@@ -1349,7 +1349,7 @@ footer {
 
   .fix_bg {
     background-position: left top;
-    background-size: 82.3%;
+    background-size: 82.3% 65%;
   }
 
   .footer_middle_contents {
@@ -1405,8 +1405,10 @@ footer {
   }
 
   .warning_text {
+    display: inline-block;
     font-size: 1rem;
     margin: 2% 0;
+    text-align: center;
     width: 65%;
   }
 
