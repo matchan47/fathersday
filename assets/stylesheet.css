@@ -68,6 +68,11 @@ header {
 
 .header_left {
   display: inline-block;
+  margin-left: -5%;
+}
+
+.header_logo {
+  width: 240px;
 }
 
 .header_right {
@@ -164,7 +169,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh; /* 836px */
+  height: 836px; /* 836px */
 }
 
 .kv_container {
@@ -252,10 +257,14 @@ header {
 }
 
 .limited_pack_image {
-  margin: 0 23% 0 auto;
+  margin: 0 10%;
   position: static;
-  padding: 11.5% 0;
-  width: 62.8%;
+  padding: 20% 0 13% 0;
+  /* width: 62.8%; */
+}
+
+.limited_pack_image img {
+  width: 100%;
 }
 
 .section1_fruits_left {
@@ -328,9 +337,13 @@ header {
 
 .limited_pack_image_second {
   position: static;
-  margin-left: 14.7%;
-  padding-top: 12.5%;
-  padding-bottom: 8%;
+  margin: 0 5% 0 20%;
+  padding-top: 23%;
+  padding-bottom: 10%;
+}
+
+.limited_pack_image_second img {
+  width: 100%;
 }
 
 .section2_fruits_leftup {
@@ -502,7 +515,7 @@ header {
 
 .product_beer {
   display: block;
-  margin-top: -48%;
+  margin-top: -33%;
   margin-left: auto;
   width: 80%;
 }
@@ -536,7 +549,7 @@ header {
 }
 
 .fruits_beer{
-  margin-top: -63%;
+  margin-top: -59%;
   margin-left: auto;
   width: 95%;
 }
