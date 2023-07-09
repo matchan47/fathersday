@@ -10,11 +10,13 @@ $(".toggle_btn").on("click",function() {
         pos = $(window).scrollTop();
         $('body').addClass('fixed').css({'top': -pos});
     }
-})
+});
 
 // ----- リンクを押した時にメニューを閉じる -----
 $(".right_list a").on("click",function() {
     $("header").removeClass("open");
+    $('body').removeClass('fixed').css({'top': 0});
+    window.scrollTo(0, pos); // fixed が解除されズレが生じるので、スクロール位置を元の位置へ戻す
 });
 
 // 動きのきっかけとなるアニメーションの名前を定義

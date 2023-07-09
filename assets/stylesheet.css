@@ -169,7 +169,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 836px; /* 836px */
+  height: 100vh; /* 836px */
 }
 
 .kv_container {
@@ -828,7 +828,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 961px) {
   .toggle_btn {
     display: none;
   }
@@ -859,7 +859,7 @@ footer {
 
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 960px) {
 
   .header_container {
     max-width: 448px;
@@ -870,9 +870,9 @@ footer {
   }
 
   .header_logo {
-    width: 40%;
-    margin-left: 3%;
-    margin-top: 10%;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 30%;
   }
 
   .right_list {
@@ -1065,9 +1065,9 @@ footer {
   }
 
   .limited_pack_image {
-    margin: 0 20% 0 auto;
-    padding: 8% 0 0 0;
-    width: 70%;
+    margin: 0 5%;
+    padding: 18% 0 0 0;
+    width: 90%;
   }
 
   #benefit_section {
@@ -1164,10 +1164,9 @@ footer {
   }
 
   .limited_pack_image_second {
-    margin-top: 0px;
-    padding-top: 7.5%;
-    padding-bottom: 9%;
-    width: 65%;
+    margin: 0 5% 0 12%;
+    padding-top: 17%;
+    width: 80%;
   }
 
   .campaign_container_second_top {
@@ -1266,14 +1265,14 @@ footer {
   }
 
   .fruits_beer {
-    margin-top: -143%;
+    margin-top: -140%;
     margin-left: -6%;
     width: 100%;
   }
 
   .sp_product_beer {
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 8%;
   }
 
   .company_container {
@@ -1283,7 +1282,7 @@ footer {
 
   .company_text_wrap {
     margin-left: -7%;
-    margin-top: 8%;
+    margin-top: 3%;
   }
 
   .company_title {
@@ -1371,7 +1370,7 @@ footer {
 
   .footer_logo {
     float: left;
-    width: 14%;
+    width: 15%;
     margin-top: 12%;
   }
 
